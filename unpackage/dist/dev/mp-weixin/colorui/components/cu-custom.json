@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "u-overlay": "/uni_modules/uview-ui/components/u-overlay/u-overlay",
+    "u-line": "/uni_modules/uview-ui/components/u-line/u-line"
+  },
+  "component": true
+}

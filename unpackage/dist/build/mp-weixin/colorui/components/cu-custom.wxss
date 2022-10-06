@@ -1,0 +1,1 @@
+.cu-bar.fixed{z-index:100;background-color:#fff!important}.solid-right:last-of-type::after{border-right:none!important}

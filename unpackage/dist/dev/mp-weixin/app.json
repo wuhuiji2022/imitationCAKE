@@ -1,0 +1,45 @@
+{
+    "pages": [
+        "pages/home/home",
+        "pages/home/banner-ad"
+    ],
+    "subPackages": [
+        {
+            "root": "sub_pages",
+            "pages": [
+                "user/registration",
+                "user/login",
+                "cake/cake",
+                "my/my",
+                "detail/detail",
+                "collect-data/collect-data",
+                "cart/cart",
+                "order/order",
+                "address/address",
+                "address/address-detail"
+            ]
+        }
+    ],
+    "window": {
+        "navigationBarTextStyle": "black",
+        "navigationBarTitleText": "mcake",
+        "navigationBarBackgroundColor": "#f1f1f1",
+        "backgroundColor": "#F8F8F8"
+    },
+    "preloadRule": {
+        "pages/home/home": {
+            "network": "all",
+            "packages": [
+                "sub_pages"
+            ]
+        }
+    },
+    "usingComponents": {
+        "nav-custom": "/components/nav-custom",
+        "home-title": "/components/home-title",
+        "good-item": "/components/good-item",
+        "tab-custom": "/components/tab-custom",
+        "cu-custom": "/colorui/components/cu-custom"
+    },
+    "sitemapLocation": "sitemap.json"
+}

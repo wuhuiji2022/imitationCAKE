@@ -1,0 +1,1 @@
+<view><button type="default" data-event-opts="{{[['tap',[['handleCfy',['$event']]]]]}}" bindtap="__e">转录分类</button><button type="default" data-event-opts="{{[['tap',[['handleGoods',['$event']]]]]}}" bindtap="__e">转录商品</button></view>
